@@ -1,7 +1,6 @@
 body {
   padding: 0;
   margin: 0;
-  /* background-color: rgb(62, 69, 76); */
 }
 #unity-container {
   position: absolute;
@@ -16,14 +15,14 @@ body {
   height: 100%;
 }
 #unity-canvas {
-  background: #231f20;
+  background: #ffffff;
   border-radius: 15px;
   box-shadow: 0 0 30px rgba(62, 69, 76, 0.4);
 }
 .unity-mobile #unity-canvas {
   width: 100%;
   height: 100%;
-  border-radius: 0;
+  border-radius: 100vw;
   box-shadow: none;
 }
 #unity-loading-bar {
@@ -36,19 +35,19 @@ body {
 #unity-logo {
   width: 154px;
   height: 130px;
-  background: url('unity-logo-dark.png') no-repeat center;
+  background: url('unity-logo-light.png') no-repeat center;
 }
 #unity-progress-bar-empty {
   width: 141px;
   height: 18px;
   margin-top: 10px;
-  background: url('progress-bar-empty-dark.png') no-repeat center;
+  background: url('progress-bar-empty-light.png') no-repeat center;
 }
 #unity-progress-bar-full {
   width: 0%;
   height: 18px;
   margin-top: 10px;
-  background: url('progress-bar-full-dark.png') no-repeat center;
+  background: url('progress-bar-full-light.png') no-repeat center;
 }
 #unity-footer {
   position: relative;
