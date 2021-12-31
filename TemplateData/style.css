@@ -73,7 +73,6 @@ body {
 #unity-fullscreen-button:hover {
   transform: scaleX(1.1) scaleY(1.1) scaleZ(1);
 }
-
 #unity-fullscreen-button {
   position: absolute;
   right: 10px;
@@ -87,7 +86,6 @@ body {
   cursor: pointer;
   transition: transform 50ms ease-in-out;
 }
-
 #unity-mobile-warning {
   position: absolute;
   left: 50%;
